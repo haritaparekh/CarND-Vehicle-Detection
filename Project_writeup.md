@@ -236,7 +236,7 @@ Here's a [link to my video result](ProjVideoOut.mp4)
 
 The video pipeline is similar to the image pipeline.The function process_image is implemented to support video data.To accommodate the impact of changing frames of a video few modifications are made to the pipeline to reduce the false positives and make the detections smooth.
 
-The history of detections last 15 frames is saved.The heat map calculation takes the into account the history of last 15 frames.This heatmap value is thresholded against value 8.
+The history of detections last 15 frames is saved.The heat map calculation takes the into account the history of last 15 frames.This heatmap value is thresholded against value 10.
 
 ---
 
