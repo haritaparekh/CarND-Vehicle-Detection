@@ -223,8 +223,8 @@ The following images demonstrate clearly that the pipeline works as expected
 ![alt text](output_images/Heatmap4.png)
 ![alt text](output_images/Heatmap5.png)
 
+
 As mentioned above,I earlier used all three features to train, classify and extract features.This was not so optimal.By reducing the feature vector, the prediction time was reduced considerably.The accuracy is still around 98.5% as compared to 99% for three features approach.The prediction time for the final approach is 0.00183 while the prediction time for three feature approach is 0.00273.Also I made sure to use pixels er cell value as 16.This helps in optimizing the classifier a lot.
----
 
 ### Video Implementation
 
