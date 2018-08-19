@@ -57,8 +57,8 @@ Test Accuracy of SVC =  0.9927
 My SVC predicts:  [1. 0. 1. 0. 0. 0. 1. 0. 0. 0.]
 For these 10 labels:  [1. 0. 1. 0. 0. 0. 1. 0. 0. 0.]
 0.00174 Seconds to predict 10 labels with SVC
-Colorspace : YUV
 
+Colorspace : YUV
 143.05 Seconds to extract HOG features...
 Using: 11 orientations 8 pixels per cell and 2 cells per block
 Feature vector length: 6468
